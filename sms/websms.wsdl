@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<definitions name="WebSMS"
+		targetNamespace="http://www.websms.com.cy/webservices/websms.wsdl"
+		xmlns:tns="http://www.websms.com.cy/webservices/websms.wsdl"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://www.websms.com.cy/webservices/websms.xsd"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+	<types>
+		<schema targetNamespace="http://www.websms.com.cy/webservices/websms.xsd" xmlns="http://www.w3.org/2001/XMLSchema">
+
+			<element name="AuthRequest">
+				<complexType>
+					<sequence>
+						<element name="username" type="string"/>
+						<element name="password" type="string"/>
+		
+					</sequence>
+				</complexType>
+			</element>
+
+			<element name="AuthResponse">
+				<complexType>
+					<sequence>
+						<element name="success" type="int"/>
+						<element name="session_id" type="string"/>
+						<element name="message" type="string"/>
+					</sequence>
+				</complexType>
+			</element>
+			
+			<element name="session_id" >
+				<simpleType>
+    					<restriction base="xsd:string"/>
+   				</simpleType>
+			</element>
+
+			<element name="session_id2" >
+				<simpleType>
+    					<restriction base="xsd:string"/>
+   				</simpleType>
+			</element>
+
+			
+			
+<!--
+			<element name="session_id2" >
+				<simpleType>
+    					<restriction base="xsd:string"/>
+   				</simpleType>
+			</element>
+-->
+			
+			<simpleType name="dataCoding">
+				<restriction base="xsd:string">
+					<enumeration value="GSM" />
+					<enumeration value="UCS2" />
+				</restriction>
+			</simpleType>
+
+			<simpleType name="messageStatusCoding">
+				<restriction base="xsd:string">
+					<enumeration value="DELIVERED" />
+					<enumeration value="EXPIRED" />
+					<enumeration value="UNDELIVERABLE" />
+					<enumeration value="UNKNOWN" />
+				</restriction>
+			</simpleType>
+			
+
+			<element name="credits" >
+				<simpleType>
+    					<restriction base="xsd:float"/>
+   				</simpleType>
+			</element>
+
+			<element name="session_valid">
+				<simpleType>
+    					<restriction base="xsd:boolean"/>
+   				</simpleType>
+			</element>
+
+			<element name="sendSMRequest">
+				<complexType>
+					<sequence>
+						<element name="session_id" type="string"/>
+						<element name="from" type="string"/>
+						<element name="message" type="string"/>
+						<element name="data_coding" type="xsd1:dataCoding" />
+						<element name="to" type="string" minOccurs="1" maxOccurs="100" />
+					</sequence>
+				</complexType>
+			</element>
+			
+			<complexType name="messageStatus">
+				<sequence>
+					<element name="to" type="string"/>
+					<element name="status" type="int"/>
+				</sequence>
+			</complexType>
+			
+			<element name="sendSMResponse">
+				<complexType>
+					<sequence>
+						<element name="batchId" type="string"/>
+						<element name="status" type="string"/>
+						<element name="error" type="string"/>
+						<element name="credits" type="float"/>
+						<element name="to" type="xsd1:messageStatus" minOccurs="1" maxOccurs="100"/>
+					</sequence>
+				</complexType>
+			</element>
+
+
+			<element name="batchRequest">
+				<complexType>
+					<sequence>
+						<element name="sessionId" type="string"/>
+						<element name="batchId" type="string"/>
+					</sequence>
+				</complexType>
+			</element>
+
+			<complexType name="messageDeliveryStatus">
+				<sequence>
+					<element name="messageId" type="string" />
+					<element name="to" type="string"/>
+					<element name="from" type="string"/>
+					<element name="delivered_on" minOccurs="0" type="dateTime" />					
+					<element name="message" type="string" />
+					<element name="encoding" type="xsd1:dataCoding" />
+					<element name="totalSegments" type="int" />
+					<element name="segmentNumber" type="int" />
+					<element name="status" type="xsd1:messageStatusCoding"/>
+				</sequence>
+			</complexType>
+			
+
+			<element name="batchResponse">
+				<complexType>
+					<sequence>
+						<element name="batchId" type="string"/>
+						<element name="error" minOccurs="0" type="string" />
+						<element name="createdOn" minOccurs="0" type="dateTime"/>
+						<element name="sendOn" minOccurs="0" type="dateTime"/>
+						<element name="completedOn" minOccurs="0" type="dateTime"/>
+						<element name="messageCount" minOccurs="0" type="int"/>
+						<element name="status" minOccurs="0" type="string"/>
+						<element name="message" minOccurs="0" type="string"/>
+						<element name="messageStatus" type="xsd1:messageDeliveryStatus" minOccurs="0" maxOccurs="100"/>
+					</sequence>
+				</complexType>
+			</element>
+			
+
+<!--new
+
+			<element name="messageBatch">
+				<sequence>
+					<element name="batchId" type="string"/>
+					<element name="createdOn" type="dateTime"/>
+					<element name="sendOn" type="dateTime"/>
+					<element name="completedOn" type="dateTime"/>
+					<element name="messages" type="int"/>
+					<element name="status" type="string"/>
+					<element name="message" type="string"/>
+				</sequence>
+			</element>
+
+			<elemetn name="messagesBatchesRequest">
+				<sequence>
+					<element name="fromDate" type="dateTime"/>
+					<element name="toDate" type="dateTime"/>
+				</sequence>
+			</element>
+
+			<elemetn name="messagesBatchesRespond">
+				<sequence>
+					<element name="status" type="string" />
+					<element name="error" type="string" />
+					<element name="batch" type="xsd1:messageBatch" minOccurs="0" maxOccurs="100"/>
+				</sequence>
+			</element>
+
+
+			<elemetn name="messageBatchStatusResponse">
+				<sequence>
+					<element name="batchId" type="string"/>
+					<element name="status" type="string"/>
+					<element name="error" type="string"/>
+					<element name="messages" type="xsd1:messageStatus" minOccurs="1" maxOccurs="100"/>
+				</sequence>
+			</element>
+-->
+		</schema>
+	</types>
+
+
+	<message name="isSessionValidInput">
+		<part name="parameters" element="xsd1:session_id"/>
+	</message>
+
+	<message name="isSessionValidOutput">
+		<part name="parameters" element="xsd1:session_valid"/>
+	</message>
+
+	<message name="AuthInput">
+		<part name="parameters" element="xsd1:AuthRequest"/>
+	</message>
+
+	<message name="AuthOutput">
+		<part name="parameters" element="xsd1:AuthResponse"/>
+	</message>
+<!--
+	<message name="AuthOutput">
+		<part name="parameters" element="xsd1:AuthResponse"/>
+	</message>
+-->
+	<message name="GetCreditsInput">
+		<part name="parameters" element="xsd1:session_id2"/>
+	</message>
+	
+	<message name="GetCreditsOutput">
+		<part name="parameters" element="xsd1:credits"/>
+	</message>
+
+	<message name="getBatchStatusInput">
+		<part name="parameters" element="xsd1:batchRequest"/>
+	</message>
+
+	<message name="getBatchStatusOutput">
+		<part name="parameters" element="xsd1:batchResponse"/>
+	</message>
+
+	
+
+
+	<message name="sendSMInput">
+		<part name="parameters" element="xsd1:sendSMRequest"/>
+	</message>
+
+	<message name="sendSMOutput">
+		<part name="parameters" element="xsd1:sendSMResponse"/>
+	</message>
+
+	<portType name="WebsmsPortType">
+		<operation name="Authenticate">
+			<input message="tns:AuthInput"/>
+			<output message="tns:AuthOutput"/>
+		</operation>
+		<operation name="isSessionValid">
+			<input message="tns:isSessionValidInput"/>
+			<output message="tns:isSessionValidOutput"/>
+		</operation>
+		<operation name="getCredits">
+			<input message="tns:GetCreditsInput"/>
+			<output message="tns:GetCreditsOutput"/>
+		</operation>
+		<operation name="sendSM">
+			<input message="tns:sendSMInput"/>
+			<output message="tns:sendSMOutput"/>
+		</operation>
+		<operation name="getBatchStatus">
+			<input message="tns:getBatchStatusInput"/>
+			<output message="tns:getBatchStatusOutput"/>
+		</operation>
+	</portType>
+
+	<binding name="WebsmsSoapBinding" type="tns:WebsmsPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Authenticate">
+			<soap:operation soapAction="http://www.websms.com/Authenticate"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="isSessionValid">
+			<soap:operation soapAction="http://www.websms.com/isSessionValid"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="getCredits">
+			<soap:operation soapAction="http://www.websms.com/getCredits"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="sendSM">
+			<soap:operation soapAction="http://www.websms.com/sendSM"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="getBatchStatus">
+			<soap:operation soapAction="http://www.websms.com/getBatchStatus"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+
+  <service name="WebsmsService">
+    <documentation>websms webservice</documentation>
+    <port name="WebsmsPort" binding="tns:WebsmsSoapBinding">
+
+      <soap:address location="https://www.websms.com.cy/webservices/soap.php"/>
+<!--
+	<soap:address location="http://localhost/sms/webservices/soap.php"/>
+-->
+    </port>
+  </service>
+
+</definitions>
+

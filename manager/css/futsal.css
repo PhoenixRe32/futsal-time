@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family : Arial, sans-serif;
+}	
+	
+#Page {
+	background: rgba(255, 255, 255, .8);
+}
+
+#dtTitle{
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#000;
+}
+	
+.mainPage{
+	background-color:#7ec926;
+	padding:10px 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,1);
+	-khtml-box-shadow: 0px 0px 8px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,1);
+}
+
+.fieldOptions{
+	margin-left:5px;
+	width:307px; 
+	float:left;	
+}
+
+/*menu tabed*/
+#navbar {
+	padding-top:0px;
+} 
+
+#navbar #holder {
+  width:960px;
+  height:33px;
+  padding-left:35px;
+ } 
+
+ #navbar #holder ul {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+ } 
+
+ #navbar #holder ul li a { 
+  text-decoration:none;
+  float:left;
+  margin-right:5px;
+  line-height:15px;
+  font-family:"Arial Black", Gadget, sans-serif;
+  color:#000;
+  border:0px solid #000;
+  border-bottom:none;
+  padding:10px;
+  width:136px;
+  text-align:center;
+  display:block;
+  background:#62ac0b;
+  -moz-border-radius-topleft:10px;
+  -moz-border-radius-topright:10px;
+  -webkit-border-top-left-radius:10px;
+  -webkit-border-top-right-radius:10px; 
+ } 
+
+ #navbar #holder ul li a:hover {
+  background:#7ec926;
+  color:#FFF;
+  text-shadow:1px 1px 1px #000;
+ } 
+ 
+  #holder ul li a#onlink {
+  background:#7ec926;
+  color:#fff;
+  border-bottom:0px solid #7ec926; 
+ } 
+
+ #holder ul li a#onlink:hover {
+  background:#7ec926;
+ }
+  /*end menu tab*/
+ 
+ /*HTML Hidden Pages
+web*/
+.detailsSection {
+	background: #fff;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+  -moz-border-radius-bottomright:25px;
+  -moz-border-radius-bottomleft:25px;
+  -webkit-border-bottom-right-radius:25px; 
+  -webkit-border-bottom-left-radius:25px; 
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	overflow:hidden;
+}
+
+
+.customScr {
+	text-align:center;
+}	
+
+.fields{
+	background: #FFF;
+	margin-top:5px;
+	padding-bottom:3px;
+	padding-left:10px;
+	padding-top:5px;
+	position:relative;
+	border-radius:5px;
+	/*
+	-moz-border-radius-topright:25px;
+	-moz-border-radius-topleft:25px;
+  -moz-border-radius-bottomright:25px;
+  -moz-border-radius-bottomleft:25px;
+  -webkit-border-top-right-radius:25px;
+  -webkit-border-top-left-radius:25px;*/
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	overflow:hidden;
+}
+
+.game{
+	background-color:#090;
+	min-height:50px;
+	margin:5px;
+	float:left;
+}
+
+.game:hover {
+	cursor: pointer;
+}
+.selected{
+	margin:10px 10px 0px 10px;
+	min-height:70px;
+	
+}
+.free{
+	padding-top:5px;
+	background-color:#669933;
+}
+
+.error{
+	background-color:#FFF;
+}
+
+.empty{
+	padding-top:5px;
+	color:#fff;
+	background-color:#000000; opacity:0.8; filter:alpha(opacity=80);
+	opacity:0.5;
+	text-align:center;
+	font-size:12px;
+	
+}
+
+.occupied{
+	padding-top:5px;
+	text-align:center;
+	color:#000;
+	font-size:12px;
+background-color:#900; opacity:0.5; filter:alpha(opacity=50);	
+}
+
+.bookedGame{
+ background-color:#A00000;
+	padding-top:5px;
+	text-align:center;
+}
+
+.challenge{
+ background-color:rgb(255,72,0);
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.bookedGame10{
+	background-color:#6A000F;
+	padding-top:5px;
+	text-align:center;
+}
+
+.bookedGame7{
+	background-color:#6A0000;
+	padding-top:5px;
+	text-align:center;
+}
+
+.legend{
+	/* width:295px; */
+	/* margin-top:250px; */
+	padding:5px;
+	/* position:fixed; */
+	background:rgba(255,255,255,0.5);
+	
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-topleft:10px;
+  -moz-border-radius-bottomright:10px;
+  -moz-border-radius-bottomleft:10px;
+  -webkit-border-top-right-radius:10px;
+  -webkit-border-bottom-right-radius:10px;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		
+}
+
+.legendIcon{
+	width:50px;
+	height:30px;	
+}

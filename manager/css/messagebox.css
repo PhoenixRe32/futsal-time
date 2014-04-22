@@ -1,0 +1,44 @@
+/* 
+ * Style for message box borrowed by the "jQuery message box" snippet
+ * by Dejan Jacimovic (http://stuntsnippets.com/author/dejan-jacimovic/)
+ * at stuntCODERS (http://stuntsnippets.com/jquery-message-box/).
+ * Credit where credit is due. Our thanks.
+ */
+#darkbg {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: 1000;
+	
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+#message_box {
+	width: 500px;
+	background-color:#fff;
+	color:#7F7F7F;
+	
+	border: 4px solid #f0f0f0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+ 
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -250px;
+	padding:20px;
+ 
+	text-align: left;
+	z-index: 1001;
+	display: none;
+}
+#message_box input[type=button] {
+	float: right;
+	margin-right: 10px;
+}
