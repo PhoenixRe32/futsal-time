@@ -1,8 +1,8 @@
 <?php
 
 $file = './populate.sql';
-$dateNTime = DateTime::createFromFormat('Y-m-d H:i:s', '2013-09-03 00:00:00');
-$iterDateNTime = DateTime::createFromFormat('Y-m-d H:i:s', '2013-09-03 00:00:00');
+$dateNTime = DateTime::createFromFormat('Y-m-d H:i:s', '2014-05-04 00:00:00');
+$iterDateNTime = DateTime::createFromFormat('Y-m-d H:i:s', '2014-05-04 00:00:00');
 $interval_1 = new DateInterval("PT15M");
 $interval_14 = new DateInterval("PT17H");
 $fields[0][0] = 'game_slots_camp1';
@@ -24,9 +24,9 @@ $fields[3][1] = 3;
 	}
 
 	$content = "";
-	while ( $iterDateNTime->diff($dateNTime)->format('%a') <= 31 ) 
+	while ( $iterDateNTime->diff($dateNTime)->format('%a') <= 30*6 ) 
 	{
-		for ($i = 0; $i <= count($fields); $i++) {
+		for ($i = 0; $i < count($fields); $i++) {
 			for ($j = 1; $j <= $fields[$i][1]; $j++) {
 				if($iterDateNTime->format('H:i:s')<"17:00:00"){
 					$content = "
@@ -37,7 +37,7 @@ $fields[3][1] = 3;
 				else
 				{
 					$content = "
-						INSERT INTO {$fields[0]}
+						INSERT INTO {$fields[$i][0]}
 						(date,time,field,game) VALUES 
 						('{$iterDateNTime->format('Y-m-d')}', '{$iterDateNTime->format('H:i:s')}',{$j},'N');";
 				}	
