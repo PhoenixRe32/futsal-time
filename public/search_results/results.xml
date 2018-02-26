@@ -1,0 +1,59 @@
+
+<response>
+	<arena nick='thoi'>
+		<slot date_time='2014-10-25 18:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+		<slot date_time='2014-10-25 19:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+		<slot date_time='2014-10-25 20:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+		<slot date_time='2014-10-25 21:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+		<slot date_time='2014-10-25 22:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+		<slot date_time='2014-10-25 23:00:00'>
+			<f_5X5>3</f_5X5>
+			<f_6X6>2</f_6X6>
+			<d_7X7>1</d_7X7>
+			<d_9X9>1</d_9X9>
+			<c_5X5>0</c_5X5>
+			<c_6X6>0</c_6X6>
+			<challenges>0</challenges>
+		</slot>
+	</arena>
+</response>

@@ -1,0 +1,1042 @@
+================================================================================
+[2014-06-30 21:09:13]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(63): MyDBManager->runQuery('\r\n\t\tSELECT emai...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/livesearch.php(16): MyDBManager->fetchSet('\r\n\t\tSELECT emai...')
+#3 {main}
+
+
+		SELECT email, name, phone, reputation 
+		FROM customers
+		INNER JOIN customersRep ON customerPhone = phone
+		WHERE phone like '%' AND arenaId = ;
+
+		SELECT email, name, phone, reputation 
+		FROM customers
+		INNER JOIN customersRep ON customerPhone = phone
+		WHERE phone like '%' AND arenaId = ;
+
+================================================================================
+[2014-07-07 19:26:39]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(63): MyDBManager->runQuery('\r\n\t\tSELECT emai...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/livesearch.php(16): MyDBManager->fetchSet('\r\n\t\tSELECT emai...')
+#3 {main}
+
+
+		SELECT email, name, phone, reputation 
+		FROM customers
+		INNER JOIN customersRep ON customerPhone = phone
+		WHERE phone like '%' AND arenaId = ;
+
+		SELECT email, name, phone, reputation 
+		FROM customers
+		INNER JOIN customersRep ON customerPhone = phone
+		WHERE phone like '%' AND arenaId = ;
+
+================================================================================
+[2014-07-08 11:41:19]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:41:21]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:42:20]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:49:50]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:49:52]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:51:20]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 11:51:23]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 12:13:28]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 12:13:35]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 14:57:09]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-08 15:54:28]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-15 14:04:34]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-15 14:04:36]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-07-16 12:17:00]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-02 05:49:37]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\tname...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/sendResSMS.php(14): MyDBManager->fetchRow('\r\n\t\tSELECT\tname...')
+#3 {main}
+
+
+		SELECT	name, smsContact as smsP, smsCustomer as smsC, smsManager as smsM
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id
+		WHERE	arenas.id=;
+
+		SELECT	name, smsContact as smsP, smsCustomer as smsC, smsManager as smsM
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-08-03 10:45:13]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-08-03 11:57:40]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-03 11:57:42]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-03 16:09:27]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-03 16:09:29]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-04 14:21:21]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-04 20:38:06]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-04 21:26:45]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-12 13:07:46]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-12 13:07:53]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-12 13:07:56]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-08-24 11:18:38]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-08-31 11:56:20]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-09-04 12:57:30]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-09-08 19:18:14]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-12 16:10:43]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'futsalti_futsal_thoi.fields_' doesn't exist' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(63): MyDBManager->runQuery('SELECT DISTINCT...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/getDetails.php(20): MyDBManager->fetchSet('SELECT DISTINCT...')
+#3 {main}
+
+SELECT DISTINCT fieldSize FROM fields_ WHERE type='D' ORDER BY fieldSize ASC;
+SELECT DISTINCT fieldSize FROM fields_ WHERE type='D' ORDER BY fieldSize ASC;
+
+================================================================================
+[2014-09-12 22:06:28]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-12 22:06:31]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-12 22:10:17]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-12 22:10:20]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-16 11:35:03]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-09-17 09:38:45]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-22 18:57:28]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-25 20:12:02]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-09-29 19:05:09]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-09-29 19:15:09]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-10-06 17:01:04]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-10-06 17:01:07]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-10-10 11:58:21]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-10-14 14:11:18]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-10-14 14:11:27]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+================================================================================
+[2014-10-15 15:27:30]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\n\t\tSELECT\tname,...')
+#2 /home2/futsalti/public_html/_futsalthoi/public/scripts/php/search.php(19): MyDBManager->fetchRow('\n\t\tSELECT\tname,...')
+#3 {main}
+
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+		SELECT	name, phones, nick, slotFormatClient, smsManager, smsCustomer
+		FROM	arenas 
+		INNER JOIN arenaSettings ON arenas.id = arenaSettings.id 
+		WHERE	arenas.id=;
+
+================================================================================
+[2014-10-21 15:41:28]	Query-Run
+
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php:42
+Stack trace:
+#0 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(42): PDOStatement->execute()
+#1 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/databaseClass.php(53): MyDBManager->runQuery('\r\n\t\tSELECT\taren...')
+#2 /home2/futsalti/public_html/_futsalthoi/manager/scripts/php/cancelBooking.php(15): MyDBManager->fetchRow('\r\n\t\tSELECT\taren...')
+#3 {main}
+
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+
+		SELECT	arena, date, time, field, gameType, fieldSize, customer, opponent, name
+		FROM	reservations
+		INNER JOIN	arenas ON reservations.arena = arenas.nick 
+		WHERE	reservations.id = ;
+

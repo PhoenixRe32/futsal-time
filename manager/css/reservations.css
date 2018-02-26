@@ -1,0 +1,136 @@
+/************************* FORM *************************/
+
+.reservation_box{
+	width: 730px;
+	background-color:#fff;
+	color:#7F7F7F;
+	
+	/* position:fixed;
+	top:15%;
+	left:150%;
+	margin-left: -320px;
+	padding:20px;
+	 */
+	 
+	margin-left:48px;
+	/* border:2px solid #ccc;
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	-khtml-border-radius:20px;
+	-moz-box-shadow: 0 1px 5px #333;
+	-webkit-box-shadow: 0 1px 5px #333;
+	 */
+	text-align: left;
+	/* z-index:500; */
+}
+
+#reservation_box fieldset
+{
+   padding:20px 20px 20px 20px;
+   border:3px solid #C0C0C0;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;   
+}
+
+#reservation_box legend
+{
+   font-family : Arial, sans-serif;
+   font-size: 1.3em;
+   
+   color:#333;
+}
+
+#reservation_box label
+{
+   font-family : Arial, sans-serif;
+   font-size:0.8em;
+   font-weight: bold;
+}
+
+#reservation_box input[type="text"],#reservation_box textarea
+{
+  font-family : Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height:140%;
+  color : #000; 
+  padding : 3px; 
+  border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+#reservation_box #game_type_options,
+#reservation_box #game_size_options
+{
+  font-family : Arial, sans-serif;
+  font-size:0.8em;
+  font-weight: bold;
+  width:228px;
+  line-height:140%;
+  color : #7f7f7f; 
+  padding : 3px; 
+  border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+#reservation_box input[type="text"]
+{
+  /* height:18px; */
+  width:220px;
+}
+
+#reservation_box input[type="button"]
+{
+   width:100px;
+   height:30px;
+   padding-left:0px;
+   text-align: center;
+}
+
+#reservation_box textarea
+{
+  height:120px;
+  width:310px;
+}
+
+#reservation_box input[type="text"]:focus,
+#reservation_box textarea:focus
+{
+  color : #009;
+  border : 1px solid #990000;
+  background-color : #ffff99;
+  font-weight:bold;
+}
+
+#reservation_box .container
+{
+   margin-top:8px;
+   margin-bottom: 10px;
+}
+
+#reservation_box .error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   font-size: 0.7em;
+   color: #900;
+   background-color : #ffff00;
+}
+
+#reservation_box #register_password_errorloc
+{
+    clear:both;
+}
+
+#reservation_box .short_explanation
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.6em;
+   color:#333;   
+}
